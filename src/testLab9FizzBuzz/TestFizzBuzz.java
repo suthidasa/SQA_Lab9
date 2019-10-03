@@ -65,4 +65,5 @@ class TestFizzBuzz {
 		assertEquals("7", result);		
 	}
 
+
 }
