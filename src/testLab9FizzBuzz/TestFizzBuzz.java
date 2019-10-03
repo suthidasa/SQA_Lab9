@@ -76,7 +76,7 @@ class TestFizzBuzz {
 	@DisplayName("Test CalculateNumber using TC09")
 	void test_point_is_9_result_is_9() {
 		String result = testFizzBuzz.CalculateNumber(9);
-		assertEquals("9", result);		
+		assertEquals("Fizz", result);		
 	}
 
 }
