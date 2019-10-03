@@ -92,5 +92,10 @@ class TestFizzBuzz {
 		String result = testFizzBuzz.CalculateNumber(11);
 		assertEquals("11", result);		
 	}
-	
+	@Test
+	@DisplayName("Test CalculateNumber using TC12")
+	void test_point_is_Buzz_result_is_Fizz() {
+		String result = testFizzBuzz.CalculateNumber(12);
+		assertEquals("Fizz", result);		
+	}
 }
