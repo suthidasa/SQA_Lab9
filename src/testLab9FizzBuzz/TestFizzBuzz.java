@@ -32,7 +32,7 @@ class TestFizzBuzz {
 	
 	@Test
 	@DisplayName("Test CalculateNumber using TC03")
-	void test_point_is_3_result_is_3() {
+	void test_point_is_3_result_is_Fizz() {
 		String result = testFizzBuzz.CalculateNumber(3);
 		assertEquals("Fizz", result);		
 	}
@@ -44,4 +44,10 @@ class TestFizzBuzz {
 		assertEquals("4", result);		
 	}
 
+	@Test
+	@DisplayName("Test CalculateNumber using TC05")
+	void test_point_is_5_result_is_Buzz() {
+		String result = testFizzBuzz.CalculateNumber(5);
+		assertEquals("Buzz", result);		
+	}
 }
