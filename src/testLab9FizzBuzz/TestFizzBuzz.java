@@ -79,4 +79,10 @@ class TestFizzBuzz {
 		assertEquals("9", result);		
 	}
 
+	@Test
+	@DisplayName("Test CalculateNumber using TC10")
+	void test_point_is_10_result_is_10() {
+		String result = testFizzBuzz.CalculateNumber(10);
+		assertEquals("10", result);		
+	}
 }
